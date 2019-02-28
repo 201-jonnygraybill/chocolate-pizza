@@ -1,0 +1,148 @@
+* {
+    outline: dotted orange 1px;
+}
+
+header, body, footer {
+  margin: 0 auto;
+  width: 900px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.topbar li {
+  display: inline-block;
+  float: left;
+}
+
+/* .topbar li:nth-child(2) {
+  padding: 10px;
+} */
+
+.cursive {
+  font-family: cursive;
+  padding-top: 10px;
+  font-size: 25px;
+}
+
+.strong {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 7px;
+}
+
+.fuck li {
+  display: inline-block;
+  float: right;
+  padding-top: 20px;
+}
+
+.linebox {
+  height: 10px;
+  width: 900px;
+  position: relative;
+  top: 70px;
+  background: repeating-linear-gradient(
+  45deg,
+  white,
+  white 1px,
+  lightgray 3px
+);
+}
+
+section h1 {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+section h2 {
+  float: right;
+  font-size: 12px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+section .maintext li:nth-child(2) {
+  margin-top: 20px;
+}
+
+section .maintext li:not(:first-child) {
+  text-indent: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.listimg {
+  position: absolute;
+  z-index: -1;
+  top: 975px;
+}
+
+.leftlist {
+  float: left;
+  padding-top: 50px;
+  margin-left: 150px;
+  font-family: arial;
+}
+
+.leftlist li {
+  padding-top: 10px;
+}
+
+.leftlist li:before { 
+  content: "\2610";
+  margin-right: 5px;
+}
+  
+.leftlist li:hover:before {
+  content: "\2611";
+  margin-right: 5px;
+}
+
+.bar {
+  height: 10px;
+  width: 900px;
+  position: absolute;
+  top: 1300px;
+  background: repeating-linear-gradient(
+  45deg,
+  white,
+  white 1px,
+  lightgray 3px
+);
+}
+
+footer section img {
+  float: left;
+}
+
+footer section h3 {
+  margin-left: 80px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+footer section p {
+  width: 500px;
+  margin-left: 80px;
+  line-height: 1.25;
+}
+
+button {
+  margin-left: 600px;
+  margin-top: -30px;
+  border: none;
+  background: rgb(122, 9, 9);
+  color: #fff;
+  padding: 8px 20px;
+  transition: 350ms all;
+  cursor: pointer;
+  float: right;
+}
+
+footer img {
+  margin-right: auto;
+  margin-left: auto;
+}
