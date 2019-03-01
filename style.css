@@ -1,7 +1,3 @@
-/* * {
-    outline: dotted orange 1px;
-} */
-
 header, body, footer {
   margin: 0 auto;
   width: 900px;
@@ -11,18 +7,10 @@ header {
   margin-top: 10px;
 }
 
-/* .clearfix {
-  clear: both;
-} */
-
 .topbar li {
   display: inline-block;
   float: left;
 }
-
-/* .topbar li:nth-child(2) {
-  padding: 10px;
-} */
 
 .cursive {
   font-family: "Brush Script MT";
@@ -90,10 +78,6 @@ section .maintext li:not(:first-child) {
   margin-bottom: 20px;
 }
 
-/* section .maintext li:last-child {
-  margin-bottom: 10px;
-} */
-
 .listimg {
   position: absolute;
   z-index: -1;
@@ -127,11 +111,6 @@ section .maintext li:not(:first-child) {
   margin-right: 5px;
 }
   
-.leftlist li:hover:before {
-  content: "\2611";
-  margin-right: 5px;
-}
-
 .bar {
   height: 10px;
   width: 900px;
@@ -197,4 +176,22 @@ button {
   color: gray;
   font-family: 'Times New Roman', Times, serif;
   font-size: 15px;
+}
+
+.checkbox {
+  height: 13px;
+  width: 13px;
+  position: absolute;
+  z-index: 3;
+  top: 1074px;
+  left: 667px;
+}
+
+.checkbox2 {
+  height: 13px;
+  width: 13px;
+  position: absolute;
+  z-index: 4;
+  top: 1104px;
+  left: 667px;
 }
