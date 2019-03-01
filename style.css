@@ -25,14 +25,14 @@ header {
   color: gray;
 }
 
-.fuck li {
+.iconimages li {
   display: inline-block;
   float: left;
   padding-top: 20px;
   border: 1px solid white;
 }
 
-.fuck li:first-of-type {
+.iconimages li:first-of-type {
   margin-left: 495px;
 }
 
