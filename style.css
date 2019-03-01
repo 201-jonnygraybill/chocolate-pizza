@@ -1,15 +1,19 @@
-* {
+/* * {
     outline: dotted orange 1px;
-}
+} */
 
 header, body, footer {
   margin: 0 auto;
   width: 900px;
 }
 
-.clearfix {
-  clear: both;
+header {
+  margin-top: 10px;
 }
+
+/* .clearfix {
+  clear: both;
+} */
 
 .topbar li {
   display: inline-block;
@@ -21,20 +25,31 @@ header, body, footer {
 } */
 
 .cursive {
-  font-family: cursive;
-  padding-top: 10px;
-  font-size: 25px;
+  font-family: "Brush Script MT";
+  padding-left: 5px;
+  font-size: 37px;
 }
 
 .strong {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 7px;
+  font-size: 8px;
+  padding-left: 5px;
+  color: gray;
 }
 
 .fuck li {
   display: inline-block;
-  float: right;
+  float: left;
   padding-top: 20px;
+  border: 1px solid white;
+}
+
+.fuck li:first-of-type {
+  margin-left: 495px;
+}
+
+.lasttwo {
+  padding-left: 5px;
 }
 
 .linebox {
@@ -52,13 +67,15 @@ header, body, footer {
 
 section h1 {
   font-weight: bold;
-  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  
   margin-bottom: 5px;
 }
 
 section h2 {
   float: right;
-  font-size: 12px;
+  font-size: 11px;
   margin-top: -10px;
   margin-bottom: 20px;
 }
@@ -73,17 +90,32 @@ section .maintext li:not(:first-child) {
   margin-bottom: 20px;
 }
 
+/* section .maintext li:last-child {
+  margin-bottom: 10px;
+} */
+
 .listimg {
   position: absolute;
   z-index: -1;
-  top: 975px;
+  top: 1000px;
 }
 
 .leftlist {
   float: left;
-  padding-top: 50px;
-  margin-left: 150px;
+  padding-top: 35px;
+  margin-left: 50px;
   font-family: arial;
+  font-size: 20px;
+  margin-right: 70px;
+}
+
+.rightlist {
+  width: 350px;
+}
+
+.rightlist p {
+  margin-top: 15px;
+  margin-left: 25px;
 }
 
 .leftlist li {
@@ -104,7 +136,7 @@ section .maintext li:not(:first-child) {
   height: 10px;
   width: 900px;
   position: absolute;
-  top: 1300px;
+  top: 1335px;
   background: repeating-linear-gradient(
   45deg,
   white,
@@ -132,17 +164,37 @@ footer section p {
 
 button {
   margin-left: 600px;
-  margin-top: -30px;
+  margin-top: -75px;
   border: none;
   background: rgb(122, 9, 9);
   color: #fff;
-  padding: 8px 20px;
+  padding: 10px 25px;
   transition: 350ms all;
   cursor: pointer;
   float: right;
 }
 
-footer img {
-  margin-right: auto;
-  margin-left: auto;
+.endingcontent img {
+  margin-left: 420px;
+  position: absolute;
+  top: 1475px;
+  z-index: 3;
+  border: 10px solid white;
+}
+
+.endingcontent p:first-of-type {
+  margin-left: 325px;
+  margin-top: 10px;
+  padding-bottom: 5px;
+  display: block;
+  color: gray;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+
+.endingcontent p:last-of-type {
+  margin-left: 350px;
+  color: gray;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
 }
