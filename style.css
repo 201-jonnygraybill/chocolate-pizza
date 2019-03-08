@@ -89,26 +89,21 @@ section .maintext li:not(:first-child) {
   padding-top: 35px;
   margin-left: 50px;
   font-family: arial;
-  font-size: 20px;
-  margin-right: 70px;
+  font-size: 21px;
+  margin-right: 75px;
 }
 
 .rightlist {
-  width: 350px;
+  width: 370px;
 }
 
 .rightlist p {
-  margin-top: 15px;
+  margin-top: 10px;
   margin-left: 25px;
 }
 
 .leftlist li {
   padding-top: 10px;
-}
-
-.leftlist li:before { 
-  content: "\2610";
-  margin-right: 5px;
 }
   
 .bar {
@@ -176,22 +171,4 @@ button {
   color: gray;
   font-family: 'Times New Roman', Times, serif;
   font-size: 15px;
-}
-
-.checkbox {
-  height: 13px;
-  width: 13px;
-  position: absolute;
-  z-index: 5;
-  top: 1074px;
-  left: 667px;
-}
-
-.checkbox2 {
-  height: 13px;
-  width: 13px;
-  position: absolute;
-  z-index: 4;
-  top: 1104px;
-  left: 667px;
 }
